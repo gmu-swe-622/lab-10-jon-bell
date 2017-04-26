@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<name>lab8-parent</name>
+	<name>lab10-parent</name>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edu.gmu.swe622</groupId>
-	<artifactId>lab8-parent</artifactId>
+	<artifactId>lab10-parent</artifactId>
 	<packaging>pom</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 	<modules>
-		<module>leader-client</module>
+		<module>client</module>
 		<module>zk-server</module>
 	</modules>
 	<build>
